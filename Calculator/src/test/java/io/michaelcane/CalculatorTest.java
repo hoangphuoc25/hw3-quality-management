@@ -78,7 +78,7 @@ public class CalculatorTest {
         /**
          * This method should provide the square root of a value (double).
          */
-        //somecomment
+        //somecomnt
         double expectedValue = 2;
         double actualValue = calculator.squareRoot(4);
         assertEquals("This should evaluate to 2", expectedValue, actualValue, delta);
