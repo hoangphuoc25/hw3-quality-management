@@ -219,6 +219,7 @@ public class CalculatorTest {
 
     @Test
     public void test$cube() {
+        // test cube operator
         double expectedValue = 27;
         double actualValue = calculator.cube(3);
         assertEquals("This should evaluate to 27", expectedValue, actualValue, delta);
