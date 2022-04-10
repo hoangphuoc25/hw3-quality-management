@@ -161,6 +161,10 @@ public class Calculator {
         System.out.println("ERROR - You broke the universe");
     }
 
+    public static double cube(double value) {
+        return value * value * value;        
+    }
+
 //    public void itsTimeForTheCalculator() {
 //        commands.giveCommand(Commands.Command.COSINE);
 //        commands.doTheThing();
